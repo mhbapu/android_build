@@ -1,0 +1,22 @@
+Task : Repo sync
+
+source ../setup_env.sh
+
+mkdir android-5.1.1_r38 
+
+cd !$
+
+ repo init -u https://android.googlesource.com/platform/manifest -b android-5.1.1_r38 
+
+ time repo sync
+
+ ....
+
+
+
+ real   56m36.910s
+
+ user   37m46.560s
+
+ sys    15m57.293s
+

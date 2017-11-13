@@ -1,0 +1,206 @@
+Experiment 19 - Generate 24 concurrent WS over nfs - 02-24
+
+ir@irp210-h01:/mnt/irp210/dave$ pwd
+
+/mnt/irp210/dave
+
+df -h .
+
+Filesystem          Size  Used Avail Use% Mounted on
+
+10.62.64.100:/root   20T   16T  4.9T  76% /mnt/irp210
+
+
+
+real    47m20.170s
+
+user    18m35.330s
+
+sys 0m44.668s
+
+
+
+real    47m28.626s
+
+user    18m55.503s
+
+sys 0m44.606s
+
+
+
+real    47m43.560s
+
+user    18m55.777s
+
+sys 0m44.822s
+
+
+
+real    47m49.801s
+
+user    19m7.249s
+
+sys 0m45.243s
+
+
+
+real    47m52.420s
+
+user    18m57.414s
+
+sys 0m44.660s
+
+
+
+real    47m53.311s
+
+user    19m4.881s
+
+sys 0m44.733s
+
+
+
+real    47m56.466s
+
+user    18m57.508s
+
+sys 0m44.977s
+
+
+
+real    47m56.766s
+
+user    19m4.817s
+
+sys 0m45.448s
+
+
+
+real    48m3.345s
+
+user    19m5.050s
+
+sys 0m45.643s
+
+
+
+real    48m5.029s
+
+user    19m30.752s
+
+sys 0m46.384s
+
+
+
+real    48m7.673s
+
+user    19m27.657s
+
+sys 0m46.142s
+
+
+
+real    48m8.553s
+
+user    19m33.943s
+
+sys 0m45.624s
+
+
+
+real    48m10.916s
+
+user    19m29.535s
+
+sys 0m46.634s
+
+
+
+real    48m13.961s
+
+user    19m30.671s
+
+sys 0m44.900s
+
+
+
+real    48m15.289s
+
+user    19m33.898s
+
+sys 0m46.513s
+
+
+
+real    48m35.935s
+
+user    19m26.758s
+
+sys 0m47.273s
+
+
+
+real    48m37.251s
+
+user    19m45.754s
+
+sys 0m46.507s
+
+
+
+real    48m38.469s
+
+user    19m23.779s
+
+sys 0m46.234s
+
+
+
+real    48m38.580s
+
+user    19m36.695s
+
+sys 0m45.960s
+
+
+
+real    48m40.555s
+
+user    19m27.216s
+
+sys 0m45.536s
+
+
+
+real    48m54.881s
+
+user    19m19.063s
+
+sys 0m45.713s
+
+
+
+real    49m4.011s
+
+user    19m28.086s
+
+sys 0m45.863s
+
+
+
+real    50m36.435s
+
+user    19m7.542s
+
+sys 0m46.996s
+
+
+
+
+ir@irp210-h01:/mnt/irp210/dave$ df -h .
+
+Filesystem          Size  Used Avail Use% Mounted on
+
+10.62.64.100:/root   20T   16T  4.3T  79% /mnt/irp210
+
+

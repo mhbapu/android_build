@@ -1,0 +1,199 @@
+Experiment 5 - Oreo - android-8.0.0_r9 -NFS
+
+>repo init -u https://android.googlesource.com/platform/manifest -b android-8.0.0_r9
+
+>time repo sync
+
+Checking out files: 100% (2044/2044), done. out files:   7% (161/2044)   
+
+Checking out files: 100% (96784/96784), done.
+
+Checking out files: 100% (4867/4867), done.
+
+Checking out files: 100% (3209/3209), done.
+
+Checking out files: 100% (1709/1709), done.
+
+Checking out files: 100% (9492/9492), done. out files:   1% (179/9492)   
+
+Checking out files: 100% (2697/2697), done.
+
+Checking out files: 100% (921/921), done.
+
+Checking out files: 100% (1309/1309), done. out files:  27% (361/1309)   
+
+Checking out files: 100% (617/617), done.
+
+Checking out files: 100% (614/614), done.ng out files:  48% (298/614)   
+
+Checking out files: 100% (15779/15779), done.ut files:   1% (293/15779)   
+
+Checking out files: 100% (29/29), done.king out files:  34% (10/29)   
+
+Checking out files: 100% (978/978), done.ng out files:  33% (332/978)   
+
+Syncing work tree: 100% (568/568), done.  
+
+
+
+
+
+real    65m48.062s
+
+user    37m41.142s
+
+sys 18m20.988s
+
+
+
+>time make -j
+
+[ 99% 61543/61548] build out/target/product/generic/obj/NOTICE.html
+
+Combining NOTICE files into text
+
+Combining NOTICE files into HTML
+
+[ 99% 61547/61548] Target system fs image: out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img
+
+Running:  mkuserimg.sh out/target/product/generic/system out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img ext4 system 2147483648 -D out/target/product/generic/system -L system out/target/product/generic/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+
+make_ext4fs -T -1 -S out/target/product/generic/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin -L system -l 2147483648 -a system out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/generic/system out/target/product/generic/system
+
+Creating filesystem with parameters:
+
+    Size: 2147483648
+
+        Block size: 4096
+
+            Blocks per group: 32768
+
+                Inodes per group: 8192
+
+                    Inode size: 256
+
+                        Journal blocks: 8192
+
+                            Label: system
+
+                                Blocks: 524288
+
+                                    Block groups: 16
+
+                                        Reserved block group size: 127
+
+                                        Created filesystem with 2218/131072 inodes and 174498/524288 blocks
+
+                                        [100% 61548/61548] Install system fs image: out/target/product/generic/system.img
+
+                                        out/target/product/generic/system.img+ maxsize=2192446080 blocksize=2112 total=2147483648 reserve=22146432
+
+
+
+                                        real    25m38.402s
+
+                                        user    585m21.781s
+
+
+                                        sys 87m50.764s
+
+
+
+#Post build size
+
+>time du -sh .
+
+94G .
+
+
+
+real    3m55.809s
+
+user    0m2.027s
+
+
+sys 0m18.888s
+
+
+
+# Time to clean full build
+
+> time make clean 
+
+
+
+============================================
+
+PLATFORM_VERSION_CODENAME=REL
+
+PLATFORM_VERSION=8.0.0
+
+TARGET_PRODUCT=aosp_arm
+
+TARGET_BUILD_VARIANT=eng
+
+TARGET_BUILD_TYPE=release
+
+TARGET_ARCH=arm
+
+TARGET_ARCH_VARIANT=armv7-a
+
+TARGET_CPU_VARIANT=generic
+
+HOST_ARCH=x86_64
+
+HOST_2ND_ARCH=x86
+
+HOST_OS=linux
+
+HOST_OS_EXTRA=Linux-3.13.0-128-generic-x86_64-with-Ubuntu-14.04-trusty
+
+HOST_CROSS_OS=windows
+
+HOST_CROSS_ARCH=x86
+
+HOST_CROSS_2ND_ARCH=x86_64
+
+HOST_BUILD_TYPE=release
+
+BUILD_ID=OPR3.170623.007
+
+OUT_DIR=out
+
+============================================
+
+ninja: no work to do.
+
+ninja: no work to do.
+
+out/build-aosp_arm-clean.ninja is missing, regenerating...
+
+[  0% 0/1] Entire build directory removed.
+
+[100% 1/1] Entire build directory removed.
+
+
+
+real    4m54.450s
+
+user    0m3.070s
+
+
+sys 0m21.393s
+
+#Pre-build size
+
+>time du -sh
+
+time du -sh
+
+48G .
+
+
+
+real    3m22.080s
+
+user    0m1.875s
+
+
+sys 0m16.744s

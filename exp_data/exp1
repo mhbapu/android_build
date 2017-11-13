@@ -1,0 +1,54 @@
+Marshmellow build - android-6.0.1_r5
+
+Running:  mkuserimg.sh out/target/product/generic/system out/target/product/generic/obj/PACKAGING/systemimage_i
+
+ntermediates/system.img ext4 system 1610612736 -D out/target/product/generic/system -L system out/target/produc
+
+t/generic/root/file_contexts
+
+make_ext4fs -T -1 -S out/target/product/generic/root/file_contexts -L system -l 1610612736 -a system out/target
+
+/product/generic/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/generic/system out/targe
+
+t/product/generic/system
+
+Creating filesystem with parameters:
+
+Size: 1610612736
+
+Block size: 4096
+
+Blocks per group: 32768
+
+Inodes per group: 8192
+
+Inode size: 256
+
+Journal blocks: 6144
+
+Label: system
+
+Blocks: 393216
+
+Block groups: 12
+
+Reserved block group size: 95
+
+Created filesystem with 1682/98304 inodes and 139426/393216 blocks
+
+Install system fs image: out/target/product/generic/system.img
+
+out/target/product/generic/system.img+ maxsize=1644333504 blocksize=2112 total=1610612736 reserve=16610880
+
+
+
+real    18m10.009s
+
+user    370m42.297s
+
+sys 38m31.020s
+
+
+
+du -sh .
+78G

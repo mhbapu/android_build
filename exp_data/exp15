@@ -1,0 +1,32 @@
+Experiment 15 - Create 4 concurrent build WS over nfs
+
+
+real    43m3.350s
+
+user    17m18.028s
+
+sys 0m44.976s
+
+
+
+real    43m1.718s
+
+user    17m11.602s
+
+sys 0m44.850s
+
+
+
+real    43m12.224s
+
+user    17m24.666s
+
+sys 0m44.565s
+
+
+
+real    43m24.733s
+
+user    17m13.887s
+
+sys 0m44.847s

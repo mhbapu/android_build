@@ -1,0 +1,611 @@
+Experiment 21 - Build 20 node concurrent nfs build
+
+ir@irp210-h01:/mnt/irp210/dave/bin$ ./runNfsBuild 
+
+ir@irp210-h01:/mnt/irp210/dave/bin$ /mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h06/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h02/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h15/oreo_android-8.0.0_r9_clean.log
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h05/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h07/oreo_android-8.0.0_r9_clean.log
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h08/oreo_android-8.0.0_r9_clean.log
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+/mnt/irp210/dave
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h12/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h03/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h11/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h10/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h19/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h04/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h21/oreo_android-8.0.0_r9_clean.log
+
+/mnt/irp210/dave
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h20/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h16/oreo_android-8.0.0_r9_clean.log
+
+/mnt/irp210/dave
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h09/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h14/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h13/oreo_android-8.0.0_r9_clean.log
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h18/oreo_android-8.0.0_r9_clean.log
+
+/mnt/irp210/dave
+
+Cleaning build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h17/oreo_android-8.0.0_r9_clean.log
+
+
+
+real    4m43.779s
+
+user    0m3.231s
+
+sys 0m21.712s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h14/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m45.071s
+
+user    0m3.415s
+
+sys 0m21.865s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h02/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m48.352s
+
+user    0m3.390s
+
+sys 0m22.271s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h16/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m48.830s
+
+user    0m3.424s
+
+sys 0m22.663s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h20/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m49.841s
+
+user    0m3.263s
+
+sys 0m22.511s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h21/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m50.018s
+
+user    0m3.699s
+
+sys 0m24.029s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h15/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m52.476s
+
+user    0m3.539s
+
+sys 0m24.069s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h09/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m52.723s
+
+user    0m3.155s
+
+sys 0m23.531s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h11/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m52.908s
+
+user    0m3.683s
+
+sys 0m24.836s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h07/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m52.980s
+
+user    0m3.155s
+
+sys 0m23.261s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h18/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m53.110s
+
+user    0m3.882s
+
+sys 0m25.290s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h12/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m53.712s
+
+user    0m3.547s
+
+sys 0m25.417s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h06/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m53.836s
+
+user    0m3.546s
+
+sys 0m25.697s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h04/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m54.032s
+
+user    0m3.695s
+
+sys 0m25.472s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h10/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m54.316s
+
+user    0m3.640s
+
+sys 0m26.033s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h05/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m54.640s
+
+user    0m3.848s
+
+sys 0m25.094s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h19/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m56.163s
+
+user    0m3.384s
+
+sys 0m24.433s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h13/oreo_android-8.0.0_r9_build.log
+
+
+
+real    4m59.683s
+
+user    0m2.852s
+
+sys 0m23.363s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h08/oreo_android-8.0.0_r9_build.log
+
+
+
+real    5m0.858s
+
+user    0m3.198s
+
+sys 0m22.833s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h03/oreo_android-8.0.0_r9_build.log
+
+
+
+real    5m8.802s
+
+user    0m5.325s
+
+sys 0m36.054s
+
+Starting build, Output log in : /mnt/irp210/dave/LOGS/oreo_android-8.0.0_r9.irp210-h17/oreo_android-8.0.0_r9_build.log
+
+
+
+real    27m4.829s
+
+user    565m43.985s
+
+sys 99m52.179s
+
+
+
+real    31m58.869s
+
+user    565m47.680s
+
+sys 100m17.654s
+
+
+
+real    27m9.963s
+
+user    569m43.493s
+
+sys 104m35.574s
+
+
+
+real    31m59.814s
+
+user    569m46.756s
+
+sys 104m58.089s
+
+
+
+real    27m6.542s
+
+user    566m23.635s
+
+sys 101m57.916s
+
+
+
+real    32m0.868s
+
+user    566m27.274s
+
+sys 102m23.952s
+
+
+
+real    27m2.439s
+
+user    568m2.460s
+
+sys 100m30.697s
+
+
+
+real    32m2.132s
+
+user    568m5.312s
+
+sys 100m54.063s
+
+
+
+real    27m13.655s
+
+user    566m30.895s
+
+sys 103m17.953s
+
+
+
+real    32m2.495s
+
+user    566m34.319s
+
+sys 103m40.619s
+
+
+
+real    27m7.756s
+
+user    567m32.386s
+
+sys 104m42.936s
+
+
+
+real    32m3.932s
+
+user    567m35.770s
+
+sys 105m7.372s
+
+
+
+real    27m11.040s
+
+user    574m20.935s
+
+sys 96m38.147s
+
+
+
+real    32m4.770s
+
+user    574m24.483s
+
+sys 97m3.567s
+
+
+
+real    27m13.049s
+
+user    568m21.431s
+
+sys 100m3.308s
+
+
+
+real    32m5.534s
+
+user    568m24.970s
+
+sys 100m27.380s
+
+
+
+real    27m14.429s
+
+user    567m30.079s
+
+sys 104m31.743s
+
+
+
+real    32m7.160s
+
+user    567m33.233s
+
+sys 104m55.277s
+
+
+
+real    27m14.106s
+
+user    566m6.721s
+
+sys 97m50.153s
+
+
+
+real    32m7.954s
+
+user    566m10.267s
+
+sys 98m15.853s
+
+
+
+real    27m13.493s
+
+user    571m5.617s
+
+sys 102m54.751s
+
+
+
+real    32m8.142s
+
+user    571m9.465s
+
+sys 103m19.848s
+
+
+
+real    27m16.412s
+
+user    566m27.734s
+
+sys 102m34.217s
+
+
+
+real    32m9.532s
+
+user    566m31.616s
+
+sys 102m59.509s
+
+
+
+real    27m9.814s
+
+user    565m37.838s
+
+sys 101m28.548s
+
+
+
+real    32m10.680s
+
+user    565m41.036s
+
+sys 101m51.384s
+
+
+
+real    27m17.743s
+
+user    569m15.829s
+
+sys 105m17.506s
+
+
+
+real    32m10.738s
+
+user    569m18.984s
+
+sys 105m40.770s
+
+
+
+real    27m22.739s
+
+user    564m36.113s
+
+sys 98m57.499s
+
+
+
+real    32m12.777s
+
+user    564m39.812s
+
+sys 99m21.531s
+
+
+
+real    27m28.605s
+
+user    566m57.460s
+
+sys 102m39.374s
+
+
+
+real    32m13.693s
+
+user    567m0.875s
+
+sys 103m1.242s
+
+
+
+real    27m23.408s
+
+user    565m44.608s
+
+sys 101m11.795s
+
+
+
+real    32m16.324s
+
+user    565m48.291s
+
+sys 101m36.635s
+
+
+
+real    27m40.727s
+
+user    568m18.498s
+
+sys 105m6.757s
+
+
+
+real    32m24.520s
+
+user    568m21.732s
+
+sys 105m28.470s
+
+
+
+real    27m38.068s
+
+user    566m35.304s
+
+sys 103m47.916s
+
+
+
+real    32m26.429s
+
+user    566m38.696s
+
+sys 104m10.190s
+
+
+
+real    29m0.370s
+
+user    607m42.796s
+
+sys 110m36.494s
+
+
+
+real    34m9.182s
+
+user    607m48.125s
+
+sys 111m12.553s
+
+
+
+ir@irp210-h01:/mnt/irp210/dave/bin$ df -h .
+
+Filesystem          Size  Used Avail Use% Mounted on
+
+10.62.64.100:/root   20T   17T  3.3T  84% /mnt/irp210

@@ -1,0 +1,45 @@
+Experiment 8 - Oreo make -j 32 (60% over subsription)
+i
+>time make -j 32
+
+[ 99% 61547/61548] Target system fs image: out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img
+
+Running:  mkuserimg.sh out/target/product/generic/system out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img ext4 system 2147483648 -D out/target/product/generic/system -L system out/target/product/generic/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+
+make_ext4fs -T -1 -S out/target/product/generic/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin -L system -l 2147483648 -a system out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/generic/system out/target/product/generic/system
+
+Creating filesystem with parameters:
+
+    Size: 2147483648
+
+        Block size: 4096
+
+            Blocks per group: 32768
+
+                Inodes per group: 8192
+
+                    Inode size: 256
+
+                        Journal blocks: 8192
+
+                            Label: system
+
+                                Blocks: 524288
+
+                                    Block groups: 16
+
+                                        Reserved block group size: 127
+
+                                        Created filesystem with 2218/131072 inodes and 174498/524288 blocks
+
+                                        [100% 61548/61548] Install system fs image: out/target/product/generic/system.img
+
+                                        out/target/product/generic/system.img+ maxsize=2192446080 blocksize=2112 total=2147483648 reserve=22146432
+
+
+
+                                        real    24m9.359s
+
+                                        user    520m35.475s
+
+                                        sys 65m40.729s

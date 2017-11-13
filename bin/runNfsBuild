@@ -1,0 +1,13 @@
+#! /bin/bash
+
+BIN=/mnt/irp210/dave/bin
+
+for i in {02..09}
+
+do 
+  ssh irp210-h${i}  "$BIN/build_android irp210-h${i} " & 
+#DEBUG  ssh irp210-h${i} "time echo ${i}" &
+
+done
+
+

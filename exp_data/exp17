@@ -1,0 +1,97 @@
+Experiment 17 - Create 12 concurrent WS over nfs - 13..24
+
+ir@irp210-h01:/mnt/irp210/dave$ 
+
+real    45m7.446s
+
+user    18m6.536s
+
+sys 0m43.816s
+
+
+
+real    45m11.123s
+
+user    18m6.329s
+
+sys 0m43.954s
+
+
+
+real    45m16.789s
+
+user    18m16.285s
+
+sys 0m45.099s
+
+
+
+real    45m21.009s
+
+user    18m13.586s
+
+sys 0m44.895s
+
+
+
+real    45m24.061s
+
+user    18m17.790s
+
+sys 0m45.444s
+
+
+
+real    45m26.007s
+
+user    18m16.780s
+
+sys 0m44.538s
+
+
+
+real    45m29.476s
+
+user    18m11.999s
+
+sys 0m43.701s
+
+
+
+real    45m30.958s
+
+user    18m2.781s
+
+sys 0m45.021s
+
+
+
+real    45m37.124s
+
+user    18m10.066s
+
+sys 0m44.193s
+
+
+
+real    45m37.543s
+
+user    18m17.066s
+
+sys 0m44.380s
+
+
+
+real    46m3.522s
+
+user    18m15.056s
+
+sys 0m43.879s
+
+
+
+real    47m59.440s
+
+user    17m53.421s
+
+sys 0m44.411s

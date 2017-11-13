@@ -1,0 +1,40 @@
+Experiment 14 - Local SSD Single build - Oreo - h02 - make -j40
+ir@irp210-h02:/data/dave/oreo_android-8.0.0_r9$ time make -j40
+
+ACKAGING/systemimage_intermediates/system.img out/target/product/generic/system out/target/product/generic/system
+
+Creating filesystem with parameters:
+
+    Size: 2147483648
+
+        Block size: 4096
+
+            Blocks per group: 32768
+
+                Inodes per group: 8192
+
+                    Inode size: 256
+
+                        Journal blocks: 8192
+
+                            Label: system
+
+                                Blocks: 524288
+
+                                    Block groups: 16
+
+                                        Reserved block group size: 127
+
+                                        Created filesystem with 2218/131072 inodes and 174498/524288 blocks
+
+                                        [100% 61548/61548] Install system fs image: out/target/product/generic/system.img
+
+                                        out/target/product/generic/system.img+ maxsize=2192446080 blocksize=2112 total=2147483648 reserve=22146432
+
+
+
+                                        real    20m56.203s
+
+                                        user    592m43.717s
+
+                                        sys 35m38.221s

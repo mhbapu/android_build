@@ -1,0 +1,12 @@
+Experiment 18 - Remove single WS - 27GB
+
+ir@irp210-h01:/mnt/irp210/davetime \rm -rf  oreo_android-8.0.0_r9.irp210-h01 
+
+
+
+real    18m17.524s
+
+user    0m3.341s
+
+sys 0m50.653s
+

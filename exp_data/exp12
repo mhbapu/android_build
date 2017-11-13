@@ -1,0 +1,31 @@
+Experiment 12: Extract tarball to local ssd : /data/dave/ws1 and do agaiin
+
+time ./createLocalWS oreo_android-8.0.0_r9
+
+
+
+real    5m31.655s
+
+user    4m48.645s
+
+
+sys 1m13.390s
+
+# Verify tree is correct size
+
+50G./oreo_android-8.0.0_r9_local.irp210-h01
+
+
+
+>mv ./oreo_android-8.0.0_r9_local.irp210-h01 ./oreo_android-8.0.0_r9_local.irp210-h01.01
+
+time ./createLocalWS oreo_android-8.0.0_r9
+
+
+
+real    5m19.472s
+
+user    4m49.289s
+
+
+sys 1m15.306s

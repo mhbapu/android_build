@@ -1,0 +1,22 @@
+#! /bin/bash
+if [ $# == 0 ]; then
+  echo "Error: Provide hostname for Nfs workspace"
+  exit 1
+fi
+ver="oreo_android-8.0.0_r9"
+host=$1
+nfsWSdir=/mnt/irp210/dave/${ver}.${host}
+localWSdir=/data/dave/${ver}
+logDir="/mnt/irp210/dave/LOGS"
+
+if [ -d $localWSdir ]; then
+  if [ -d $nfsWSdir ]; then
+       echo "Removing $WSdir"; rm -fr $WSdir ; 
+  fi
+  mkdir $nfsWSdir
+  cd /data/dave ; tar czf - ./${ver} --exclude='.repo' | ssh $host "(tar xzf - -C $nfsWSdir &> ${logDir}/${ver}${host}_nfsWS.log)"
+else 
+  echo "Error: Local $localWSdir missing! " 
+  exit 1
+fi
+

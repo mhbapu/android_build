@@ -1,0 +1,21 @@
+Experiment 11 - Copy oreo tarball to local SSD /data from /nfs
+
+
+cd /data/dave
+time cp /home/ir/test/dave/oreo_android-8.0.0_r9.tgz  .
+
+
+
+real    1m6.730s
+
+user    0m0.018s
+
+sys 0m26.893s
+
+
+
+##Same size as NFS ! Wow that was fast!
+
+du -sh ./oreo_android-8.0.0_r9.tgz 
+
+35G ./oreo_android-8.0.0_r9.tgz

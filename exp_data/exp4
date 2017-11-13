@@ -1,0 +1,51 @@
+Experiment 4 - Local SSD build - Lollipop - android-5.1.1_r38
+>pwd 
+
+/home/ir/dave_local/android-5.1.1_r38
+
+ir@irp210-h01:~/dave_local/android-5.1.1_r38$ time make -j 
+
+Installed file list: out/target/product/generic/installed-files.txt
+
+Target system fs image: out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img
+
+Running:  mkuserimg.sh out/target/product/generic/system out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img ext4 system 576716800 out/target/product/generic/root/file_contexts
+
+make_ext4fs -T -1 -S out/target/product/generic/root/file_contexts -l 576716800 -a system out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/generic/system
+
+Creating filesystem with parameters:
+
+    Size: 576716800
+
+        Block size: 4096
+
+            Blocks per group: 32768
+
+                Inodes per group: 7040
+
+                    Inode size: 256
+
+                        Journal blocks: 2200
+
+                            Label: 
+
+                                Blocks: 140800
+
+                                    Block groups: 5
+
+                                        Reserved block group size: 39
+
+                                        Created filesystem with 1467/35200 inodes and 109577/140800 blocks
+
+                                        Install system fs image: out/target/product/generic/system.img
+
+                                        out/target/product/generic/system.img+ maxsize=588791808 blocksize=2112 total=576716800 reserve=5947392
+
+
+
+                                        real    19m33.588s
+
+                                        user    590m31.844s
+
+
+                                        sys 44m59.616s

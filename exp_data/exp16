@@ -1,0 +1,79 @@
+Experiment 16 - Create 8 concurrent WS over nfs
+
+for i in {06..13}
+
+
+
+do 
+
+      time ./createNfsWSfrmTarStream irp210-h${i} &
+
+      done
+
+
+
+      ir@irp210-h01:/mnt/irp210/dave$ 
+
+      real  44m14.018s
+
+      user  17m55.680s
+
+      sys   0m45.277s
+
+
+
+      real  44m25.134s
+
+      user  18m10.754s
+
+      sys   0m45.217s
+
+
+
+      real  44m26.637s
+
+      user  18m8.395s
+
+      sys   0m45.449s
+
+
+
+      real  44m27.790s
+
+      user  18m9.905s
+
+      sys   0m45.074s
+
+
+
+      real  44m34.623s
+
+      user  18m7.134s
+
+      sys   0m45.018s
+
+
+
+      real  44m40.212s
+
+      user  18m19.547s
+
+      sys   0m45.528s
+
+
+
+      real  44m48.263s
+
+      user  17m47.915s
+
+      sys   0m44.578s
+
+
+
+      real  44m50.361s
+
+      user  17m58.322s
+
+      sys   0m44.631s
+
+

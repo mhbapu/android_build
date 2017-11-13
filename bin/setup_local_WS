@@ -1,0 +1,6 @@
+#! /bin/bash
+sudo mkdir /data/dave
+sudo chown -R ir:ir  /data/dave
+cd /data/dave
+ssh ir@irp210-h01 "(cd /data/dave ; tar czf - ./oreo_android-8.0.0_r9 --exclude='.repo')" | tar xzf - -C /data/dave
+# Works# tar czf - ./LOGS/ --exclude='.repo' | tar xzf - -C /data/dave

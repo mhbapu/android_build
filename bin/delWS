@@ -1,0 +1,10 @@
+#! /bin/bash
+
+for i in {02..24}
+
+do 
+  ssh irp210-h${i}  "time \rm -rf  /mnt/irp210/dave/oreo_android-8.0.0_r9.irp210-h${i} " &
+
+done
+
+

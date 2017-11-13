@@ -1,0 +1,162 @@
+Experiment 3 - Lollipop
+
+Hi Ravi,
+
+Downloaded Lollipop version of Android , which is better from apple to apple comparison. Build is similar time wise as I have done in past over NFS. Below are the stats :
+
+I'll start with this and we can build our data, lets meet tomorrow and discuss this if you have any inputs. How do you setup web meeting is that also thru Slack?
+
+-Dave
+
+>time make -j
+Installed file list: out/target/product/generic/installed-files.txt
+
+Target system fs image: out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img
+
+Running:  mkuserimg.sh out/target/product/generic/system out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img ext4 system 576716800 out/target/product/generic/root/file_contexts
+
+make_ext4fs -T -1 -S out/target/product/generic/root/file_contexts -l 576716800 -a system out/target/product/generic/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/generic/system
+
+Creating filesystem with parameters:
+
+    Size: 576716800
+
+        Block size: 4096
+
+            Blocks per group: 32768
+
+                Inodes per group: 7040
+
+                    Inode size: 256
+
+                        Journal blocks: 2200
+
+                            Label: 
+
+                                Blocks: 140800
+
+                                    Block groups: 5
+
+                                        Reserved block group size: 39
+
+                                        Created filesystem with 1467/35200 inodes and 109577/140800 blocks
+
+                                        Install system fs image: out/target/product/generic/system.img
+
+                                        out/target/product/generic/system.img+ maxsize=588791808 blocksize=2112 total=576716800 reserve=5947392
+
+
+
+                                        real    26m9.550s
+
+                                        user    551m30.155s
+
+                                        sys 80m57.079s
+
+
+# Size Post Build
+>time du -sh .
+76G .
+
+real    3m25.278s
+
+user    0m1.697s
+
+sys 0m18.046s
+
+
+# Time to remove build artifacts
+>time make clean
+===========================================
+
+PLATFORM_VERSION_CODENAME=REL
+
+PLATFORM_VERSION=5.1.1
+
+TARGET_PRODUCT=full
+
+TARGET_BUILD_VARIANT=eng
+
+TARGET_BUILD_TYPE=release
+
+TARGET_BUILD_APPS=
+
+TARGET_ARCH=arm
+
+TARGET_ARCH_VARIANT=armv7-a
+
+TARGET_CPU_VARIANT=generic
+
+TARGET_2ND_ARCH=
+
+TARGET_2ND_ARCH_VARIANT=
+
+TARGET_2ND_CPU_VARIANT=
+
+HOST_ARCH=x86_64
+
+HOST_OS=linux
+
+HOST_OS_EXTRA=Linux-3.13.0-128-generic-x86_64-with-Ubuntu-14.04-trusty
+
+HOST_BUILD_TYPE=release
+
+BUILD_ID=LMY49M
+
+OUT_DIR=out
+
+============================================
+
+Entire build directory removed.
+
+
+
+real    6m36.240s
+
+user    0m1.435s
+
+sys 0m22.482s
+
+
+# Size Pre Build
+>time du -sh
+time du -sh
+
+48G .
+
+
+
+real    2m20.888s
+
+user    0m0.931s
+
+sys 0m10.669s
+
+###Time to create tarball and Size of tarball
+
+>time gzip android-5.1.1_r38.tar
+
+
+
+real    26m20.207s
+
+user    25m34.662s
+
+sys 0m39.901s
+
+
+
+>du -sh *.tar*
+
+
+41G android-5.1.1_r38.tar.gz
+
+>cp android-5.1.1_r38.tar.gz /home/ir
+
+
+
+real    1m24.003s
+
+user    0m0.020s
+
+sys 0m37.597s

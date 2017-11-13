@@ -1,0 +1,23 @@
+#! /bin/bash
+if [ $# == 0 ]; then
+  echo "Error: Full Android release version expected"
+  exit 1
+fi
+
+host=`hostname`
+WSdir=$1.${host}
+tarBall=${1}.tgz
+logDir="/home/ir/test/dave/LOGS"
+
+if [ -f ${tarBall} ]; then
+  if [ -d $WSdir ]; then
+       echo "Removing $WSdir"; rm -fr $WSdir ; 
+  fi
+  mkdir $WSdir
+  cd $WSdir
+  tar xzf ../${tarBall} . &>   "${logDir}/${WSdir}_WS.log"
+else 
+  echo "Error: Tar ball missing ${tarBall}" 
+  exit 1
+fi
+

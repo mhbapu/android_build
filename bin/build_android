@@ -1,0 +1,26 @@
+#! /bin/bash
+
+host=${1:?Expected valid hostname... }
+apexDir=/mnt/irp210/dave
+ver=oreo_android-8.0.0_r9
+
+cd $apexDir
+echo $PWD
+
+logDir=${apexDir}/LOGS/${ver}.${host}
+buildDir=./builds/${ver}.${host}/${ver}
+dataDir=./data
+binDir=./bin
+
+source $binDir/setup_env.sh
+mkdir -p ${logDir}
+
+echo "Cleaning build, Output log in :" ${logDir}/${ver}_clean.log
+
+cd ${buildDir}
+time make -j clean &>   "${logDir}/${ver}_clean.log"
+# DEBUG  ls  &>   "${logDir}/${ver}_clean_${host}.log"
+echo "Starting build, Output log in :" ${logDir}/${ver}_build.log
+time make -j 40  &>  "${logDir}/${ver}_build.log"
+# DEBUG  ls  &>  "${logDir}/${ver}_build.log" 
+

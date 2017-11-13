@@ -1,0 +1,10 @@
+#! /bin/bash
+
+for i in {02..24}
+
+do 
+  time ./createNfsWSfrmTarStream irp210-h${i} &
+
+done
+
+
